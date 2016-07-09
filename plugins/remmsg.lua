@@ -5,7 +5,7 @@ end
 if tonumber(extra.con) == #result then
 send_msg(extra.chatid, ''..#result..' msg removed', ok_cb, false)
 else
-send_msg(extra.chatid, 'all supergroup msgs removed', ok_cb, false)
+send_msg(extra.chatid, 'همه پیام های سوپر گروه پاک شدند', ok_cb, false)
 end
 end
 local function run(msg, matches)
@@ -16,10 +16,10 @@ if matches[1] == 'rmmsg' and is_owner(msg) then
             end
             get_history(msg.to.peer_id, matches[2] + 1 , history , {chatid = msg.to.peer_id, con = matches[2]})
         else
-                         return "only for supergroups"
+                         return "👑فقط برای سوپر گروه👑"
         end
 else
-return "only for mods"
+return "فقط برای صاحب و مدیر های گروه😎"
 end
 end
 return {
