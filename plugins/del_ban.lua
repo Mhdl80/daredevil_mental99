@@ -30,5 +30,5 @@ return {
   run = run
 }
 
--- by @daredevilteam
+-- by @daredevil_team
 -- @Mhdl80
