@@ -106,7 +106,7 @@ local function run(msg, matches)
 		a=a+1
 		result_text = result_text..a.."- "..result[a].."\n\n"
 	end
-	return result_text.."______________________________\nrMoonTeam"
+	return result_text.."______________________________\n kinglearn.ir"
 end
 
 return {
@@ -114,8 +114,8 @@ return {
 	usagehtm = '<tr><td align="center">write متن</td><td align="right">با استفاده از این پلاگین میتوانید متون خود را با فونت های متنوع و زیبایی طراحی کنید. حد اکثر کاراکتر های مجاز 20 عدد میباشد و فقط میتوانید از حروف انگلیسی و اعداد استفاده کنید</td></tr>',
 	usage = {"write [text] : زیبا نویسی",},
 	patterns = {
-		"^([Ww]rite) (.*)",
-		"^([Ww]rite)$",
+		"^(بنویس) (.*)",
+		"^([بنویس]rite)$",
 		},
 	run = run
 }
